@@ -1,0 +1,28 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mongo": "mongod --dbpath=./mongo_data --nojournal"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "express": "^4.14.0",
+    "mocha": "^3.0.2",
+    "mongodb": "^2.2.10",
+    "mongoose": "^4.6.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.1",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0"
+  }
+}
